@@ -47,3 +47,4 @@
 - Rebuilt the offline HTML presentation with semantic landmarks, detailed alternative text, raw-Markdown links, responsive layout and visible chapter summaries.
 - Added corrected English supplementary SVGs for the release/evidence gates and key-area handover prototypes, avoiding the residual glyph and title-crowding issues without changing the required PNG or PDF evidence set.
 - Kept proposal text, all geometry, metrics, statutory unknowns, required PNGs and four PDFs unchanged; this is a narrowly scoped accessibility and presentation-quality follow-up to the merged 93/100 intake package.
+
