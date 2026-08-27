@@ -17,3 +17,10 @@ Suggested repository licence field: `COMMUNITY-DISPLAY-ONLY`, subject to the ups
 - 同位透明语义层保留标题、正文、表格、脚注、证据标签和视觉复核关键词，支持浏览器查找、复制、辅助技术及机器检查；它不是可见内容的替代，而是与可见矢量字形一一对应。
 - 构建方法只输出当前成果所需字形轮廓，不输出完整字体、字符映射表或可还原字体文件。
 - 来源登记见 `sources.json` 的 `NOTO-CJK-OFL`；构建机的 Debian `fonts-noto-cjk` 版权记录指向 Noto CJK 上游并载明 OFL 许可。
+
+## v1.4.2 accessibility and rendered-experience assets
+
+- `assets/figures/service-continuity-storyboard.svg` is an original, language-neutral conceptual rendering generated programmatically as an SVG from geometric primitives. It contains no photograph, identifiable person, logo, map tile, external image, or third-party media. It illustrates normal operation, degraded operation, and human takeover only; it is not a site observation, public-consultation record, approved design, or built condition.
+- The Chinese visible boards remain font-independent SVG outlines produced at build time from locally installed Noto Sans CJK SC. No font file, webfont, or binary font program is redistributed in the package. The typeface is used only to derive static vector outlines; the package records the family and SIL Open Font License 1.1 basis but does not contain `.ttf`, `.ttc`, `.otf`, `.woff`, or `.woff2` files.
+- `report/proposal*.html` now exposes visible chapter summaries, semantic landmarks, local links to the complete Markdown proposals and detailed alternative text for every visible figure. `visual/index*.html` adds keyboard-operable disclosure controls, a static concept sequence, responsive layout and no remote assets or active network requests.
+- Two English supplementary diagrams were generated from original package-authored vector geometry and labels to provide a clean release-gate and key-area reading path. The required PNG and PDF evidence set is intentionally unchanged; no external asset was introduced.
