@@ -40,3 +40,10 @@
 - Folded the five-interface regional matrix into the mandatory land-use figure pair and the first-year pilot evidence into the mandatory metrics figure pair.
 - Appended bilingual regional, station and pilot evidence sheets to A0/A3 PDFs so the repairs are visible in every principal review channel.
 - Re-rendered HTML and PDF evidence, refreshed all manifest hashes and prepared an exact-head self-check workflow.
+
+## v1.4.2 - 2026-08-27
+
+- Added a language-neutral, rights-cleared three-state service-continuity SVG and exposed it from the bilingual report and visual HTML pages.
+- Rebuilt the offline HTML presentation with semantic landmarks, detailed alternative text, raw-Markdown links, responsive layout and visible chapter summaries.
+- Added corrected English supplementary SVGs for the release/evidence gates and key-area handover prototypes, avoiding the residual glyph and title-crowding issues without changing the required PNG or PDF evidence set.
+- Kept proposal text, all geometry, metrics, statutory unknowns, required PNGs and four PDFs unchanged; this is a narrowly scoped accessibility and presentation-quality follow-up to the merged 93/100 intake package.
